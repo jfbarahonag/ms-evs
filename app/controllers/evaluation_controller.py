@@ -8,6 +8,6 @@ router = APIRouter(prefix="/evs")
 def hello_world():
     return EvaluationService.hello_world()
 
-@router.post("/request")
-def handle_request_reception():
+@router.post("/evluate")
+def handle_request_evaluation():
     return EvaluationService.hello_world()
